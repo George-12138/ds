@@ -1,0 +1,64 @@
+
+****************************************************************************
+***                           Sentaurus Visual                           ***
+***                         Version Q-2019.12-SP1                        ***
+***                        (1.1489, x86_64, Linux)                       ***
+***                                                                      ***
+***                        Copyright (c) 2012-2019                       ***
+***                            Synopsys, Inc.                            ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Jan 31 14:20:03 PST 2020 on tcadprod35
+
+Datexcodes: Found and Loaded at: '/software/synopsys-2019//sentaurus/Q_2019.12-SP1a/bin/../tcad/current/lib/datexcodes.txt'.
+Tcl-Library: path added: '/software/synopsys-2019//sentaurus/Q_2019.12-SP1a/bin/../tcad/current/lib/svisuallib'.
+Tcl-Library: path added: '/home/CAMPUS/2680340g/svisuallib'.
+Loading Custom Buttons interface ... works only in Interactive mode.
+Loading EMW_FIT interface version 1
+Loading Internal Library Version 0.4
+Loading Extraction Library Version 2.1.4
+Loading Physical Constants Library Version 0.3
+Loading IFM Data Post-Processing Library Version 1.3.0
+Loading RF Parameter Extraction Library Version 1.0.2
+Tcl-Library: files successfully loaded: '7'.
+#TCL: load_script_file /home/CAMPUS/2680340g/TCADProjects/thf2/CMOS_Characterization/n102_vis.tcl
+#TCL: cd /home/CAMPUS/2680340g/TCADProjects/thf2/CMOS_Characterization
+Tcl-Library: path added: '/software/synopsys-2019//sentaurus/Q_2019.12-SP1a/bin/../tcad/current/lib/svisuallib'.
+Tcl-Library: path added: '/home/CAMPUS/2680340g/svisuallib'.
+Tcl-Library: files successfully loaded: '1'.
+
+Gate Length: 0.045 um 
+
+#TCL: # #########################################
+#TCL: # Plotting Id-Vg (sat) curve
+#TCL: # #########################################
+#TCL: # #########################################
+#TCL: # Extracting parameters from Id-Vgs (sat) curve
+#TCL: # #########################################
+DOE: VtiSat 0.477
+VtiSat (Vg at io=2.222e-06): 0.477
+
+ext::ExtractExtremum> Extracting maxima
+DOE: IdSat 3.453e-04
+
+Max IdSat: 3.453e-04
+DOE: Ioff 6.356e-12
+Ioff: 6.356e-12
+DOE: SSsat 83.560
+SSsat (SS at Vg= 0.0100): 83.560
+
+Internal Procedure > ext::Getxomt > Voltage= 0.0166666666666 0.05 0.0833333333333 0.116666666666 0.15 0.183333333333 0.216666666667 0.25 0.283333333333 0.316666666667 0.35 0.383333333334 0.416666666666 0.45 0.483333333334 0.516666666667 0.55 0.583333333334 0.616666666666 0.65 0.683333333333 0.716666666667 0.75 0.783333333333 0.816666666667 0.85 0.883333333334 0.916666666666 0.95 0.983333333333
+Internal Procedure > ext::Getxomt > gm= 2.86220286751e-10 7.1820048623e-10 1.79903591172e-09 4.4995372447e-09 1.12602629531e-08 2.79923658572e-08 6.93471604504e-08 1.7212380125e-07 4.20233304595e-07 1.01062200003e-06 2.4220181462e-06 5.7393812529e-06 1.31983903337e-05 2.91565730645e-05 6.06213307224e-05 0.000115951655983 0.000200358647608 0.000309910559889 0.000441826565596 0.000573037460386 0.000688275292051 0.000783913443731 0.000850879360003 0.000890265411429 0.000908341705899 0.000914243379882 0.000911206995669 0.000901792396929 0.000887629316982 0.000869726659389
+DOE: gmSat 9.144e-04
+gmSat: 9.144e-04 at Vg= 0.8553
+
+#TCL: # Vti (Vg at Io= 2.222e-06 A/um) is 0.477 V
+#TCL: # Max IdSat is 3.453e-04 A/um
+#TCL: # Ioff is 6.356e-12 A/um
+#TCL: # SSsat is 83.560 mV/dec
+#TCL: # Max gm is 9.144e-04 S/um
+#TCL: #-> 0
